@@ -1,0 +1,236 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index3.css">
+
+
+</head>
+
+<body style="background-color: red;">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.disco.html">discover</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="learnmore.html">learn more</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">login/sing up</a>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div id="c-1" class="card-header">
+      <h1>Now you are going to learn how to write code. </h1>
+    </div>
+
+    <div id="ro1" class="row gy-5">
+      <div class="col-12 col-lg-4 col-xl-3">
+        <div class="card" id="ca-1" style="width: 100%;">
+          <div id="ch-1" class="card-header">
+            <h2>HTML</h2>
+          </div>
+          <div id="cb-1" class="card-body">
+            <img src="images/HTML.jpg" alt="">
+          </div>
+          <div id="cf-1" class="card-footer">
+            <h3> <b> When you write h1 the text is going to be. Bigger but if you write h2,h3,h4, and h5 text is going
+                to.
+                Become small depending. on what h is if it is h5 text going to become too small is almost hard to
+                read.</b>
+            </h3>
+            <!-- h1 h2 h3 h4 h5 are shwon in figure 1.1-->
+
+            <h1>Lorem,</h1>
+            <h2>Lorem, ipsum.</h2>
+            <h3>Lorem, ipsum dolor.</h3>
+            <h4>Lorem ipsum dolor sit.</h4>
+            <h5>Lorem ipsum dolor sit amet.</h5>
+
+            <br><br>
+            <h3><b> When you say input tpye it is goig to create a box it is show in figure 1.2</b>
+              <!--id part is for css we wil going to see that later(: -->
+              <input type="text" id="input1">
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4 col-xl-3">
+        <div id="ca-2" class="card" style="width: 100%;">
+          <div id="ch-2" class="card-header">
+            <h2>Css+Boostap </h2>
+          </div>
+          <div id="cb-2" class="card-body">
+            <img src="images/css.jpg" alt="">
+            <br><br>
+            <img src="images/Boostrap.jpg" alt="">
+          </div>
+          <div class="card-footer" id="cf-2">
+            <h2> When wirte style top of html page and you stat to write body background-color /backroung you start to
+              change the cbackground color in your page and it will look nice and perfect. style> /style>
+            </h2>
+            <br><br>
+            <h2>Css have class and id for naming the elements. When you wirte id on css it needs to be writen ike this
+              in figure 2
+              <h1 id="hello"> #hello Lorem ipsum dolor sit.</h1>
+              When we wirte class it needs to be writen is like this in figure 2-1
+              <h1 class="hello2">.hello2 Lorem, ipsum dolor.</h1>
+            </h2>
+            <br><br>
+            <h3>
+              When I use boostrap I usally focuesd on cards in boostrap I allways use boostrap5 cdn to accases the cdn
+              on boostrap you need to got to this webtisite paste cdn links you are only pasting is
+              <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+                crossorigin="anonymous">
+              in the top of the head.for this one you are going use this cdn
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+              and you need to put this on end of the body.
+            </h3>
+
+            <br><br>
+            <h3>For making forms are easlly just like this
+            </h3>
+            <form>
+              <div class="form-row">
+                <div class="col">
+                  <input type="text" class="form-contorol bg-dark text-light " placeholder="Frist name">
+                  <input type="text" class="form-contorol bg-dark text-light mt-3" placeholder="Last Name">
+                  <!-- if you want you can put id and chnage the background of it.-->
+                  <input type="text" class="form-contorol mt-3" id="fo1" placeholder="gmail">
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-4 col-xl-3">
+      <div id="ca-3" class="card" style="width: 100%;">
+        <div id="ch-3" class="card-header">
+          <h2>Js (Javascript)</h2>
+        </div>
+        <div id="cb3" class="card-body">
+          <img src="images/javascript.jpg" alt="">
+        </div>
+        <div id="cf-3" class="card-footer">
+          <h3>Now we are going to learn JS (Javascript).
+            First, we need to open the js file by index.js.
+            then we could use html css+boostap. First, we need to create a form that's. In Figure 3-1.
+
+            <form>
+              <input type="text" class="form-contorol bg-dark text-light" placeholder="Frist Name">
+              <input type="text" class="form-contorol bg-dark text-light mt-3 " placeholder="Last name">
+              <input type="text" class="form-contorol mt-3 bg-dark text-light" placeholder="gmail">
+              <input type="text" class="form-contorol mt-3 bg-dark text-light" placeholder="password">
+              <button class="btn btn-info mt-3" onclick="btn1()" id="send">Send</button>
+              <br><br>
+              <h3>We finished the HTML and CSS, we can move on to JS (Javascript).
+                We are going to. Use a function element in Js that allows the user to see the message. We need to write
+                script src=index.js
+                Why did we say function element, and why did we put alert? The reason is simple we have put.
+                Function because it is telling, the code. Statements and values with the onclick element in HTML.
+              </h3>
+            </form>
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-4 col-xl-3">
+      <div id="ca-4" class="card" style="width: 100%;">
+        <div id="ch-4" class="card-header">
+          <h2>Python</h2>
+        </div>
+        <div id="cb-4" class="card-body">]
+          <img src="images/python.jpg" alt="">
+        </div>
+        <div id="cf-4" class="card-footer">
+          <h4>When we say print("hi") and when you prees shit enter it it wil Hello world it shows i figure 4.1
+            <img src="images/test1.jpg" alt="">
+          </h4>
+          <br><br>
+
+          <h4>When we dwonlad somthng in python we need to say pip install for exaple pip install pytube. that is whoen
+            in figure 4-2
+            <br><br>
+            <h3>
+              pip install pytube
+
+              import pytube
+
+              url = input("enter video url:")
+
+              path = ""
+
+              pytube.YouTube(url).streams.get_highest_resolution().download(path)
+
+              <h3>When you write that in the code, it will be going to download a YouTube video to the URL. Then you can
+                see that URL form your dwonlads that are in your computer.
+
+                <br><br>
+                <h3>
+                  Pip is a Python library. When you write import camelcase, then you want to use that camelcase well to
+                  do
+                  that is easy you just need to do is. Pip and install when they are combined, they become pip install
+                  camelcase.
+                </h3>
+              </h3>
+            </h3>
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-4 col-xl-3">
+      <div class="card" id="ca-5" style="width: 100%;">
+     <div id="ch-5" class="card-header">
+      <h2>PHP</h2>
+     </div>
+     <div id="cb-5" class="card-body">
+      <img id="php" src="images/php.jpg" alt="">
+     </div>
+     <div class="card-footer" id="cf-5">
+      <h3>Php is similar to HTML. PHP can create datas    </h3>
+     </div>
+      </div>
+    </div>
+
+    <!--row and container -->
+
+  </div>
+  </div>
+
+
+  <script src="index.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

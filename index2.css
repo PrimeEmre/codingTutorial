@@ -1,0 +1,238 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background: blue;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+#ca-1 {
+    margin: 3.3rem;
+
+   
+
+}
+
+#ca-2 {
+    margin: 3.3rem;
+    border: .8rem solid silver;
+    border-bottom: .8rem solid dodgerblue;
+    border-radius: 15%;
+    border-width: 1.5rem;
+    border-style: double;
+    text-align: center;
+    background-image: url('images/coding.jpg');
+    background-position: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+    height: 15vw;
+   color:white;
+   border: .8rem dashed gold;
+   border-bottom: .8rem double silver;
+   border-width: 1.5rem;
+   border-radius: 15%;
+}
+
+#ch-1 {
+    color: cadetblue;
+    background: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+img {
+    width: 15vw;
+    border: .8rem solid dodgerblue;
+    border-bottom: .8rem solid red;
+    border-width: 1.5rem;
+    border-style: double;
+}
+
+#cb-1 {
+    background: firebrick;
+    color: black;
+}
+
+#cf-1 {
+    background: gold;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#ca-3 {
+    margin: 3.3rem;
+    text-align: center;
+
+}
+
+#ch-3 {
+    color: brown;
+    background: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#cf-4 {
+    color: dodgerblue;
+    background: black;
+    font-family: sans-serif;
+}
+
+#cb-4 {
+    background: aqua;
+}
+
+#ca-5 {
+    margin: 3.3rem;
+    text-align: center;
+}
+
+#ch-5 {
+    background: green;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cb-5 {
+    background: lightseagreen;
+
+}
+
+#cf-5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: darkorange;
+}
+
+#ca-6 {
+    margin: 3.3rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ch-6 {
+    background: firebrick;
+    color: dodgerblue;
+}
+
+#cb-6 {
+    background-color: blueviolet;
+}
+
+#cf-6 {
+    background-color: crimson;
+    color: lightblue;
+}
+
+#ca-7 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3.3rem;
+    text-align: center;
+    display: inline-block;
+}
+
+#ch-7 {
+    background: slategray;
+    color: red;
+}
+
+#cb-7 {
+
+    background: gold;
+    border: .8rem dashed dodgerblue;
+}
+
+#cf-7 {
+    color: whitesmoke;
+    background-color: navy;
+}
+
+#ca-8 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 3.3rem;
+    display: inline-block;
+    text-align: center;
+}
+
+#ch-8 {
+    color: firebrick;
+    background: yellow;
+}
+
+#cb-8 {
+    background: aquamarine;
+    border: .8rem dashed firebrick;
+}
+
+#cf-8 {
+    color: firebrick;
+    background: silver;
+}
+
+#ca-9 {
+
+    margin: 3.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+#ch-9 {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#cb-9 {
+    background: darkgray;
+    border: .8rem dashed red;
+}
+
+#cf-9 {
+    color: gold;
+    background: darkred;
+}
+
+#ca-10 {
+    display: inline-block;
+    margin: 3.3rem;
+    text-align: center;
+}
+
+#ch-10 {
+    color: darkturquoise;
+    background: #000;
+}
+
+#cb-10 {
+    border: .8rem dashed skyblue;
+    background: green;
+}
+
+#cf-10 {
+    background-color: silver;
+    color: red;
+}
+
+.box-1 {
+    width: 18vw;
+    height: 18vw;
+    padding: .8rem;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: white;
+     background-color: aqua;
+     margin-left: 35%;
+     border: .8rem dashed gold;
+     border-radius: 15%;
+     border-bottom: .8rem double silver;
+     box-shadow: 2rem 2rem 2rem ;
+     border-top-right-radius: .8rem .7rem;
+    border-bottom-left-radius: .8rem;
+    border-top-left-radius:50% ;
+    background-image: linear-gradient(red,blue,black,gold,firebrick);
+    
+    }
+

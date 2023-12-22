@@ -1,0 +1,228 @@
+html {
+    font-size: 16px;
+}
+
+
+body {
+    
+    background: black;
+    font-family: 'Kanit', sans-serif;
+ 
+}
+
+
+#ca1 {
+    margin: 3.3rem;
+    
+    background: black;
+    background-image: url('images/coding.jpg');
+    height: 15vw;
+    color: white;
+    border: .8rem dashed gold;
+    border-bottom: .8rem double silver;
+    border-radius: 15%;
+    border-width: 1.5rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+
+
+}
+
+#hc1 {
+    padding: 1.5rem;
+    background: gold;
+    color: black;
+    border: .8rem solid silver;
+    border-bottom: .8rem solid dodgerblue;
+    border-style: double;
+    border-radius: 15%;
+ 
+}
+
+#ca2 {
+    margin-left: 3, 3rem;
+    text-align: center;
+}
+
+#hc2 {
+    background: red;
+    color: black;
+
+}
+
+img {
+    width: 15vw;
+    border: .8rem solid gold;
+    border-bottom: .8rem solid silver;
+    border-radius: 15%;
+    border-width: 1.5rem;
+    border-style: double;
+}
+
+#cd {
+    background: dodgerblue;
+}
+
+#cf{
+    background: black;
+    color: white;
+}
+
+#ca3{
+    margin-left: 3.3rem;
+    text-align: center;
+}
+
+
+#hc3{
+    background: dodgerblue;
+   color: white;
+}
+
+#cd-2{
+    background: black;
+}
+
+#cf-2{
+background: firebrick;
+color: dodgerblue;
+
+}
+
+#ca4{
+    margin-left: 3.3rem;
+}
+
+#h3{
+    background: powderblue;
+    color: #000;
+}
+
+#cb-4{
+    background: #f0e68c;
+    color: #f0ffff;
+}
+.img-1{
+    width: 18rem;
+    border: .8rem solid dodgerblue;
+    border-bottom: .8rem solid darkred;
+    border-width: 0.7rem;
+border-radius: 15%;
+border-style: double;
+
+}
+
+#cf-3{
+background: red;
+color: white;
+}
+
+#c5{
+margin: 3.3rem;
+display: block;
+}
+
+#h4{
+    color: #000000;
+    background: gold;
+}
+
+#bc-4{
+    background: #1e90ff;
+    
+}
+
+#cf-4{
+    background: #b22222;
+    color: #ffffff;
+}
+
+
+#chr-1{
+    background: #fa8072;
+    color: azure;
+}
+
+#ca5{
+    margin: 3,3rem;
+}
+
+#cb-5{
+    background: #b22222;
+}
+
+#cf-5{
+    background: #ff0000;
+    color: #ffff00;
+}
+
+#ca-6{
+    margin: 3.3rem;
+}
+
+#cd-6{
+    color: #1e90ff;
+    background: #000;
+}
+
+#cb-6{
+    background: red;
+}
+
+#cf-6{
+    background: #000000;
+    color: #ffffff;
+}
+#ca-7{
+    margin: 3.3rem;
+    display: inline-block;
+}
+
+#ch-7{
+    color: blue ;
+    background-color:aqua ;
+}
+
+#cb-7{
+    background: black;
+}
+
+
+#ca-10{
+    margin: 3.3rem;
+    display: inline-block;
+}
+
+
+#ch-9{
+    color: dodgerblue ;
+    background:firebrick ;
+}
+
+
+#box{
+    width: 20vw;
+    height: 20vw;
+    padding: 1.2rem;
+    margin: 3.3rem;
+    margin-left:30% ;
+    padding-top: 2.2rem;
+    
+    border: .8rem solid gold;
+    border-bottom: .8rem solid silver;
+    border-width: 1.5rem;
+    border-style: double;
+    text-align: center;
+    color:white;
+    box-shadow: 2rem 2rem 2rem ;
+    border-top-right-radius: .8rem .7rem;
+   border-bottom-left-radius: .8rem;
+   border-top-left-radius:50% ;
+   background-image: linear-gradient(red,blue,black,gold,firebrick,silver );
+
+  
+}
+

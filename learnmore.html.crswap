@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index3.css">
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.disco.html">discover</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="learnmore.html">learn more</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">login/sing up</a>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div id="c-1" class="card-header">
+      <h2>We are going to learn how to type coding languages. </h2>
+    </div>
+
+    <div id="ro1" class="row gy-5">
+      <div class="col-12 col-lg-4 col-xl-3">
+        <div class="card" id="ca-1" style="width: 100%;">
+          <div id="ch-1" class="card-header">
+            <h2>HTML</h2>
+          </div>
+          <div id="cb-1" class="card-body">
+            <img src="images/HTML.jpg" alt="">
+          </div>
+          <div id="cf-1" class="card-footer">
+            <h3> <b> When you write h1 the text is going to be. Bigger but if you write h2,h3,h4, and h5 text is going
+                to.
+                Become small depending. on what h is if it is h5 text going to become too small is almost hard to
+                read.</b>
+            </h3>
+            <!-- h1 h2 h3 h4 h5 are shwon in figure 1.1-->
+
+            <h1>Lorem,</h1>
+            <h2>Lorem, ipsum.</h2>
+            <h3>Lorem, ipsum dolor.</h3>
+            <h4>Lorem ipsum dolor sit.</h4>
+            <h5>Lorem ipsum dolor sit amet.</h5>
+
+            <br><br>
+            <h3><b> When you say input tpye it is goig to create a box it is show in figure 1.2</b>
+              <!--id part is for css we wil going to see that later(: -->
+              <input type="text" id="input1">
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4 col-xl-3">
+        <div id="ca-2" class="card" style="width: 100%;">
+          <div id="ch-2" class="card-header">
+            <h2>Css+Boostap </h2>
+          </div>
+          <div id="cb-2" class="card-body">
+            <img src="images/css.jpg" alt="">
+            <br><br>
+            <img src="images/Boostrap.jpg" alt="">
+          </div>
+          <div class="card-footer" id="cf-2">
+            <h3> When wirte style top of html page and you stat to write body background-color /backroung you start to
+              change the cbackground color in your page and it will look nice and perfect. style> /style>
+            </h3>io9
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!--row and container -->
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

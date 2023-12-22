@@ -1,0 +1,168 @@
+html{
+    font-size: 16px;
+    }
+    
+    .body{
+        background-color: red;
+        font-family: 'Kanit', sans-serif;
+    }
+    #c-1{
+     background-image: url("images/mountin.jpg");
+     background-repeat: no-repeat;
+     border:.8rem dashed gold;
+     border-bottom: .8rem double silver;
+     border-width: 1.5rem;
+     border-radius: 15%;
+     background-position: center;
+     padding: 2rem;
+      background-size: cover;
+    margin: 3.3rem;
+    color: azure;
+    text-align: center;
+    height: 15vw;
+    }
+
+    #ca-1{
+        margin: 3.3rem;
+        display: inline-block;
+    }
+
+    #ch-1{
+       color: dodgerblue;
+       background: firebrick;
+    }
+    img{
+        width: 15vw;
+        border: .8rem dashed black;
+        border-bottom: .8rem double silver;
+        border-radius: 15%;
+    
+    }
+
+    #cb-1{
+        background: gold;
+    }
+
+
+    #input1{
+        width: 10rem;
+        height: 10rem;
+        margin: .8rem;
+    }
+
+    #cf-1{
+        color: dodgerblue;
+       background: #000;
+    }
+
+    #ca-2{
+        margin: 3.3rem;
+      
+    
+    }
+
+    #ch-2{
+        color: skyblue;
+        background-color: crimson;
+    }
+
+    #cb-2{
+        background-color: turquoise;
+    }
+
+
+
+    #hello{
+        background: blue;
+       color:white;
+   }
+
+   .hello2{
+    background: dodgerblue;
+    color: white;
+
+   }
+
+   #cf-2{
+    background: #000;
+    color: azure;
+   }
+
+#fo1{
+    background: dodgerblue;
+    color: white;
+}
+
+#ca-3{
+    margin: 3.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+}
+
+#ch-3{
+    color: red;
+    background: yellow;
+}
+#cb3{
+    background: dodgerblue;
+}
+
+#cf-3{
+    color: black;
+    background: aquamarine;
+}
+
+#send{
+border:.8rem dashed gold;
+border-bottom: .8rem double silver;
+border-radius: 15%;
+box-shadow: .8rem .7rem .8rem;
+transition: .8s;
+}
+
+:hover#send{
+color: blue;
+background: #000;
+transition: .8s;
+}
+
+#ca-4{
+    margin: 3.3rem;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+#ch-4{
+    color: red;
+    background: dodgerblue;
+}
+
+#cb-4{
+    background: firebrick;
+    
+}
+
+#cf-4{
+    color: gold;
+    background: firebrick;
+}
+
+#ca-5{
+    margin:3.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: inline-block;
+   text-align: center;
+}
+
+#ch-5{
+    background: #394d72;
+    color:#ffff;
+}
+#cb-5{
+    background: silver;
+}
+
+#php{
+    border-bottom: .8rem double gold;
+}
